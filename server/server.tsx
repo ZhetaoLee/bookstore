@@ -25,7 +25,6 @@ app.use("^/$", (req, res) => {
 
 app.use(express.static(path.resolve(__dirname, "../build")));
 
-
 app.listen(3005, () => {
     console.log("App launched on 3005");
 })
