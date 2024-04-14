@@ -6,10 +6,17 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `npm install`
+
+Install all nessassery packages.
+
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
+Builds the app for production to the `build` folder.
 
 ### `npm run ssr`
 
 Start the backend, then open localhost:3005 on the browser
+
+## `public domain:`
+https://zhetao-bookstore.s3.amazonaws.com/index.html

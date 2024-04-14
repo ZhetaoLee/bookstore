@@ -72,7 +72,7 @@ function App() {
   }
 
   const handleDelete = (book: Book) => {
-    setBookstore(bookstore.filter((ele)=> ele.name != book.name))
+    setBookstore(bookstore.filter((ele)=> ele.name !== book.name))
   }
 
   const handleAdd = (name:string, price:string, category:string, description:string) => {
